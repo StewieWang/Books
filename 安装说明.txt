@@ -1,0 +1,18 @@
+
+
+安装说明：
+
+1，卸载清理净之前安装的老版本，删除无用的程序，禁用好驱动程序签名强制。win7操作方法：https://jingyan.baidu.com/article/acf728fd495b9ff8e410a377.html
+win10操作方法：https://jingyan.baidu.com/article/624e74594dbc8d34e8ba5aa6.html
+
+2，打开install文件夹，运行10.5.0.27-Both.exe安装软件，完成后不要运行。
+
+3，以管理员身份运行运行Crack文件夹里的Driver  选择“enable test mode”->next ->yes，双击运行Crack文件夹里的88.reg，89.reg和90.reg文件，点击确定将其添加到注册表。
+
+4，关闭杀毒软件和防火墙，右键桌面计算机图标-----设备管理器，点击选定系统设备---操作，添加过时硬件----下一步，手动选择列表----显示所有设备---从磁盘安装，浏览选择Crack文件夹里的multikey.inf，提示驱动文件安装完成即可。
+
+5，以管理员身份运行Crack文件夹里的Driver.exe文件。（选择"sign a system file"”->next>在下面对话框里输入 c:\windows\system 32\drivers\multikey.sys 点击OK
+
+6，右键计算机选择属性，设备管理器，选择virtual usb multikey 禁用一下，然后重新启动。
+
+7，运行软件即可完美使用了（注意：每次都要先禁用好驱动程序签名强制）。
